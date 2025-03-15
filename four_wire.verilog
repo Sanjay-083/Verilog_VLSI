@@ -1,0 +1,15 @@
+
+module top_module( 
+    input a,b,c,
+    output w,x,y,z );
+    assign w=a;
+    assign x=b;
+    assign y=b;
+    assign z=c;
+    
+endmodule
+
+//The module only creates connections, no logic operations are performed.
+//assign continuously updates outputs whenever inputs change.
+//Multiple outputs can receive the same input value (like b -> x and b -> y).
+//This is the simplest way to pass signals between components in Verilog.
