@@ -1,0 +1,8 @@
+//In Verilog, a wire is used to connect different parts of a circuit.
+// A wire itself does not store any value
+// it only transmits signals from one point to another.
+
+
+module top(output out,input in);
+  assign out =in;
+endmodule 
